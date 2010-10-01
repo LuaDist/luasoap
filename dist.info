@@ -1,0 +1,15 @@
+--- This file is part of LuaDist project
+
+name = "luasoap"
+version = "1.0b"
+
+desc = "LuaSOAP - a library of functions to deal with SOAP."
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+license = "Kepler"
+url = "http://www.keplerproject.org/luasoap/"
+maintainer = "Peter Kapec"
+
+depends = {
+	"lua ~> 5.1",
+	"luaexpat >= 1.1"
+}
