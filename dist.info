@@ -1,0 +1,37 @@
+type = "x86"
+arch = "Windows"
+author = "Roberto Ierusalimschy, André Carregal, Tomás Guisasola"
+depends = {
+[[lua ~> 5.1]],
+[[luaexpat >= 1.1]],
+}
+
+desc = "LuaSOAP - a library of functions to deal with SOAP."
+version = "1.0b"
+maintainer = "Peter Kapec"
+files = {
+Runtime = {
+[[lib\lua\soap.lua]],
+[[lib\lua\http.lua]],
+}
+,
+Documentation = {
+[[share\luasoap\doc\index.html]],
+[[share\luasoap\doc\manual.html]],
+[[share\luasoap\doc\license.html]],
+[[share\luasoap\doc\luasoap.png]],
+}
+,
+Data = {
+[[share\luasoap\README]],
+}
+,
+Test = {
+[[share\luasoap\test\test.lua]],
+}
+,
+}
+
+license = "Kepler"
+name = "luasoap"
+url = "http://www.keplerproject.org/luasoap/"
